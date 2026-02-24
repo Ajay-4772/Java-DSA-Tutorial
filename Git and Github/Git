@@ -1,0 +1,50 @@
+Action	                Command
+
+Initialize repo	        git init
+Add files	            git add .
+Commit	                git commit -m "msg"
+Push	                git push origin main
+Pull                	git pull
+Clone	                git clone <url>
+Branch	                git branch feature
+Switch	                git switch feature
+Merge	                git merge feature
+Status              	git status
+Log	                    git log
+Undo commit	            git reset
+
+Check Git Version
+
+Windows	        macOS	        Linux
+git --version	git --version	git --version
+
+Git Configuration (User Name & Email)
+
+Same for all OS:
+
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+File System Commands (Different!)
+
+Purpose	         Windows (Git Bash)	         macOS	         Linux
+
+List files              	ls	              ls	           ls
+Change directory	        cd	              cd               cd
+Clear terminal	     clear or cls (CMD)	      clear	           clear
+Remove file	            rm file.txt	       rm file.txt	    rm file.txt
+Remove folder	        rm -rf folder	   rm -rf folder	rm -rf folder
+
+SSH Key Generation
+
+Task	                Windows	                    macOS	                           Linux
+
+Create SSH Key	ssh-keygen -t ed25519 -C "email"	Same	                           Same
+Copy SSH Key	clip < ~/.ssh/id_ed25519.pub	    pbcopy < ~/.ssh/id_ed25519.pub	   cat ~/.ssh/id_ed25519.pub
+
+Line Ending Handling
+
+OS	                         Default Setting
+
+Windows	                     git config --global core.autocrlf true
+macOS/Linux	                 git config --global core.autocrlf input
