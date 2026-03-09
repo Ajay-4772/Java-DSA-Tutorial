@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Leetcode_problems/7 Days Leetcode challenge/7 Days Leetcode challenge.iml" filepath="$PROJECT_DIR$/Leetcode_problems/7 Days Leetcode challenge/7 Days Leetcode challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_tutorial.iml" filepath="$PROJECT_DIR$/Java_tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode_problems/Leetcode_problems.iml" filepath="$PROJECT_DIR$/Leetcode_problems/Leetcode_problems.iml" />
     </modules>
