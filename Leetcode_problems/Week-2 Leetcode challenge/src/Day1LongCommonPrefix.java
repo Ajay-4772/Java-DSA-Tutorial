@@ -1,5 +1,5 @@
 
-public class LongCommonPrefix{
+public class Day1LongCommonPrefix {
     public static void main(String[] args) {
         String[] arr = {"flower" , "flow" , "flight"};
         String[] arr2 = {"dog","racecar","car"};
