@@ -44,6 +44,5 @@ public class ThirdMaximumNumber {
         int result = thirdMax(nums);
 
         System.out.println(result);
-
     }
 }
