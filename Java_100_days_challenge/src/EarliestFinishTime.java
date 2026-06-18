@@ -11,12 +11,12 @@ public class EarliestFinishTime {
 
             for (int j = 0; j < waterStartTime.length; j++) {
 
-                // Land -> Water
+
                 int landFinish = landStartTime[i] + landDuration[i];
                 int waterStart = Math.max(landFinish, waterStartTime[j]);
                 int finish1 = waterStart + waterDuration[j];
 
-                // Water -> Land
+
                 int waterFinish = waterStartTime[j] + waterDuration[j];
                 int landStart = Math.max(waterFinish, landStartTime[i]);
                 int finish2 = landStart + landDuration[i];
