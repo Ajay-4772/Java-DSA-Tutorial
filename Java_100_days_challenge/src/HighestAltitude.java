@@ -25,7 +25,5 @@ public class HighestAltitude {
         }
 
         System.out.println(largestAltitude(gain));
-
-        sc.close();
     }
 }
